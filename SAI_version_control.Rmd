@@ -3,13 +3,6 @@ title: "SAI CPD event - Version Control"
 author: ''
 date: 'last updated: `r Sys.Date()`'
 output:
-  word_document:
-    toc: yes
-    reference_docx: word_styles_reference.docx
-    toc_depth: 1
-  pdf_document:
-    toc: yes
-    toc_depth: '2'
   html_document:
     theme: journal
     toc: yes
@@ -17,6 +10,13 @@ output:
     toc_depth: 2
     number_sections: yes
     df_print: paged
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+  word_document:
+    toc: yes
+    reference_docx: word_styles_reference.docx
+    toc_depth: 1
 ---
 
 
